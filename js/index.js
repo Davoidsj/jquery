@@ -1,1 +1,1 @@
-$('a').attr('href','https://www.aol.com/');
+$("h1").addClass("style1 style2");
