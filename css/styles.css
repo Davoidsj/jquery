@@ -1,8 +1,251 @@
-.style1{
-    color:tomato;
-    font-size: 3rem;
-   
-}
-.style2{
-    font-weight: lighter;
-}
+*{
+
+
+
+    margin:0;
+    
+    padding:0;
+    
+
+  
+    
+    
+    
+    }
+    
+    
+    
+    body{
+    
+    
+    
+    background-color:rgb(95, 92, 92);
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    #calc-device{
+    
+    
+    
+    width:300px;
+    
+    height:500px;
+    
+    margin: 0 auto;
+    
+    background-color:#C6C4C3;
+    
+    margin:100px 500px;
+    
+    padding:30px;
+    
+    font-size:0;
+    
+    border-radius:20px;
+    
+    box-shadow: 1px 2px 5px 6px rgba(0,0,0,0.3);
+    
+    }
+    
+    
+    
+    ::placeholder{
+    
+    
+    
+    
+    
+        font-size:40px;
+    
+        color:rgb(8, 1, 1);
+    
+    }
+    
+    
+    
+    
+    
+    #calc-device:hover{
+    
+    
+    
+    box-shadow: 4px 16px 32px 18px rgba(0,0,0,0.4);
+    
+    
+    
+    
+    
+    }
+    
+    .calc-head{
+    
+    
+    
+    width:295px;
+    
+    height:80px;
+    
+    background-image:linear-gradient(to top ,#979692,#777868);
+    
+    color:rgb(7, 0, 0);
+    
+    padding:10px;
+    
+    font-size:40px;
+    
+    text-align:right;
+    
+    letter-spacing: 2px;
+    
+    
+
+    
+    
+    }
+    
+    
+    
+    .button-text{
+    
+    
+    
+    width:79px;
+    
+    height:60px;
+    
+    padding-top:10px 20px 30px 40px;
+    
+    margin-top:10px;
+    
+    margin-bottom:11px;
+    
+    font-size:20px;
+    
+    color:#fcefef;
+    
+    background-color:#201F22;
+    
+    
+    
+    
+
+    
+    
+    
+    }
+    
+    #percentage{
+    
+    
+    
+    width:79px;
+    
+    height:60px;
+    
+    padding-top:10px 20px 30px 40px;
+    
+    margin-top:10px;
+    
+    margin-bottom:11px;
+    
+    font-size:20px;
+    
+    color:#fcefef;
+    
+    background-color:#0f0;
+    
+    
+    
+    
+
+    
+    
+    
+    }
+    
+    #equal{
+        width:79px;
+    
+    height:60px;
+    
+    padding-top:10px 20px 30px 40px;
+    
+    margin-top:10px;
+    
+    margin-bottom:11px;
+    
+    font-size:20px;
+    
+    color:#fcefef;
+    background-color: rgb(235, 129, 8);
+
+    }
+    
+    #delete{
+        width:79px;
+    
+    height:60px;
+    
+    padding-top:10px 20px 30px 40px;
+    
+    margin-top:10px;
+    
+    margin-bottom:11px;
+    
+    font-size:20px;
+    
+    color:#fcefef;
+    background-color: rgb(32, 14, 195);
+
+    }
+    
+    #clear{
+        width:79px;
+    
+        height:60px;
+        
+        padding-top:10px 20px 30px 40px;
+        
+        margin-top:10px;
+        
+        margin-bottom:11px;
+        
+        font-size:20px;
+        
+        color:#fcefef;
+
+        background-color: rgb(243, 9, 9);
+    }
+    
+    
+    .button-text:hover{
+    
+    
+    
+    
+    
+    background-color:#ff0000;
+    
+    
+    
+    }
+    
+    
+    
+    .button-color{
+    
+    
+    
+        background-color:rgb(15, 15, 238);
+    
+    }
+    
