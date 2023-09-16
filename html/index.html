@@ -10,10 +10,12 @@
     <form name="calculator" id="calculator">
 
         <fieldset id="calc-device">
-        
+            
+            
         <div>
-        
-        <input type="text" name="display" id="display" class="calc-head" placeholder="0"  readonly/>
+
+            <label for="display"></label>
+            <input type="text" name="display" id="display" class="calc-head" placeholder="0" readonly/>
         
         </div>
         
@@ -88,40 +90,21 @@
 
     <input type="button"  class="button-text" id="decimal-point" value="."/>
 
-    <input type="button" class="button-text" name="double-zero" value="00"/>
+    <input type="button" class="button-text" name="double-zero" id="double-zero" value="00"/>
 
-    <input type="button" id="percentage" name="equal" id="triple-zero" value="%"/>
+    <input type="button"  name="percentage" id="percentage" value="%"/>
 
-    <input type="button" class="button-color" id="delete" name="Delete" id="addition" value="Del"/>
+    <input type="button"  name="Delete" id="delete" value="Del"/>
 
 </div>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
 
 </fieldset>
-
-
-
-
-
-
-
-
-
 
 
 
@@ -138,7 +121,7 @@
         
         
         
-        </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script type="text/javascript" src="/js/index.js"></script>
 </body>
